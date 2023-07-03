@@ -2,7 +2,7 @@ from flask import Flask, request
 
 app = Flask(__name__)
 
-data = {}  # Python dictionary to store the data
+data = {}  
 
 @app.route('/create', methods=['GET', 'POST'])
 def create():
